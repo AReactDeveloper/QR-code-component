@@ -1,0 +1,24 @@
+.qr-card{
+    min-height: 499px;
+    max-width: 323px;
+    border-radius: 20px;
+    background-color: var(--clr-white);
+    padding: 15px;
+    text-align: center;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+    &-img{
+        border-radius: 20px;
+        width: 100%;
+    }
+    &-title {
+        margin-top: 20px;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+    &-text{
+        margin-top: 4px;
+        padding: 14px;
+        font-weight: 500;
+        color: var(--clr-greyish-blue);
+    }
+}

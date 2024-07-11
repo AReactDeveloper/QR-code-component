@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-grey:hsl(212, 45%, 89%);
+  --clr-greyish-blue: hsl(220, 15%, 55%);
+  --clr-dark-blue: hsl(218, 44%, 22%);
+  --primary-font: "Outfit", sans-serif;
+}
+
+/* Eric Meyer’s Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a consistent base font size */
+html {
+  font-size: 100%;
+}
+
+/* Ensure images don’t have extra space below */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove link underlines */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Ensure headings are not affected by base font size */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 0.938rem;
+  font-family: var(--primary-font);
+  background-color: var(--clr-light-grey);
+  color: var(--clr-dark-blue);
+}
+
+main {
+  min-height: 84vh;
+  background-color: var(--clr-black);
+  display: grid;
+  place-content: center;
+}
+
+.qr-card {
+  min-height: 499px;
+  max-width: 323px;
+  border-radius: 20px;
+  background-color: var(--clr-white);
+  padding: 15px;
+  text-align: center;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.1);
+}
+.qr-card-img {
+  border-radius: 20px;
+  width: 100%;
+}
+.qr-card-title {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.qr-card-text {
+  margin-top: 4px;
+  padding: 14px;
+  font-weight: 500;
+  color: var(--clr-greyish-blue);
+}
+
+/*# sourceMappingURL=styles.css.map */
