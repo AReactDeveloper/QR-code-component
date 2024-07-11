@@ -56,7 +56,7 @@ body {
 }
 
 main {
-  min-height: 84vh;
+  min-height: 100vh;
   background-color: var(--clr-black);
   display: grid;
   place-content: center;
